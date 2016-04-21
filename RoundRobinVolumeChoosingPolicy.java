@@ -29,7 +29,7 @@ import org.apache.hadoop.hdfs.StorageType;
 import org.apache.hadoop.util.DiskChecker.DiskOutOfSpaceException;
 
 /**
- * Choose volumes in round-robin order.
+ * Choose volumes in round-robin order. 副本默认存储策略：轮询调度
  */
 //V只是一个泛型参数名称，无实际意义，需要在该方法被调用时才能知道V到底是什么类型
 //V参数的实参必须是FsVolumeSpi的子类
